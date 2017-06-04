@@ -14,10 +14,10 @@ class HelloWorldTest extends PHPUnit_Framework_TestCase
         $this->pdo->query("CREATE TABLE hello (what VARCHAR(50) NOT NULL)");
     }
 
-    // public function tearDown()
-    // {
-    //     $this->pdo->query("DROP TABLE hello");
-    // }
+    public function tearDown()
+    {
+        $this->pdo->query("DROP TABLE hello");
+    }
 
     public function testHelloWorld()
     {
