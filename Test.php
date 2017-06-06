@@ -12,4 +12,8 @@ class Test {
 $a = new Test();
 $a = $a->add(2,2);
 print $a;
+
+$b = new Test();
+$b = $b->add(4,2);
+print $b;
 ?>
