@@ -8,6 +8,7 @@ class Test {
   }
 }
 
+// Initialise an object.
 $a = new Test();
 $a = $a->add(2,2);
 print $a;
